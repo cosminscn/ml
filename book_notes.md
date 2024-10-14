@@ -20,4 +20,14 @@
 - Pull complexity downwards
   - Config classes is an antipattern, try and figure out the default params
   - Make it easy for the user even if it means it's a bit harder for the developer
+ 
+- Better together or better apart
+  - Together: shared info, shared usage, conceptual overlap, hard to understand them separately, code duplication (case x)
+    - goto used to escape nested code and dedup short passage logging 
+  - Apart: general purpose vs special purpose
+  - Red flag: special general mixture
+  - Red flag: conjoined methods
+
+- Define errors out of existance
+- 
 
