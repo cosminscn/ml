@@ -32,9 +32,12 @@
   - Example: substring, file deletion linux
   - Mask exceptions: nfs server retries
   - Exception aggregation/promotion: single place or single mechanism for handling exception
+ 
+- Design it twice
+
+- TODO: comments, naming, perf etc
 
 # Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems
 https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf
 
-- enforce code reviews on error-handling code, since the error handling logic is often simply
-wrong; 
+- enforce code reviews on error-handling code, since the error handling logic is often simply wrong; 
