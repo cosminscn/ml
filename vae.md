@@ -4,6 +4,7 @@ Inspiration
 - [Clone of simo VQgan](https://github.com/cloneofsimo/vqgan-training/blob/main/ae.py)
 - [Paul nvae](https://github.com/pauldb89/ml/blob/master/nvae/model.py)
 
+
 - dataloader
   - add pairs?
   - use bernoulli noise
